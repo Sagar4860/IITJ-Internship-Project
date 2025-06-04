@@ -1,0 +1,101 @@
+code,word,text_color,font_size,font_family,font_style,noise
+0000,feel,red,81,Source_Code_Pro,SourceCodePro-MediumItalic,defocus blur
+0001,sure,blue,65,Ubuntu,Ubuntu-LightItalic,motion blur
+0002,team,purple,40,Great_Vibes,GreatVibes-Regular,glare
+0003,ever,purple,75,Nunito,Nunito-Medium,multi-layer noise
+0004,family,purple,101,Pacifico,Pacifico-Regular,low resolution
+0005,keep,red,107,Great_Vibes,GreatVibes-Regular,perspective distortion
+0006,might,purple,99,Pacifico,Pacifico-Regular,character merging
+0007,please,purple,76,Source_Code_Pro,SourceCodePro-ExtraLightItalic,aliasing
+0008,put,blue,79,Dancing_Script,DancingScript-Medium,perspective distortion
+0009,money,blue,60,Ubuntu,Ubuntu-Bold,motion blur
+0010,free,blue,96,Roboto,"Roboto-Italic-VariableFont_wdth,wght",aliasing
+0011,second,blue,118,Allura,Allura-Regular,ink bleed-through
+0012,someone,red,79,Roboto,Roboto-Black,aliasing
+0013,away,blue,100,Playfair_Display,Copy_of_PlayfairDisplay-Italic,scan line artifacts
+0014,left,blue,99,Arvo,Arvo-Bold,stroke breaks
+0015,number,purple,115,Cormorant_Garamond,Copy_of_CormorantGaramond-Bold,fold marks
+0016,city,black,80,Pacifico,Pacifico-Regular,compression artifacts
+0017,days,black,50,Source_Code_Pro,SourceCodePro-ExtraBold,low resolution
+0018,lot,black,40,Montserrat_Alternates,MontserratAlternates-Thin,resolution scaling
+0019,name,purple,118,Playfair_Display,Copy_of_PlayfairDisplay-ExtraBoldItalic,fading
+0020,night,blue,52,Great_Vibes,GreatVibes-Regular,ringing artifacts
+0021,play,black,79,Arvo,Arvo-Bold,blur
+0022,until,green,57,Montserrat_Alternates,MontserratAlternates-ThinItalic,fold marks
+0023,company,red,75,Playfair_Display,Copy_of_PlayfairDisplay-BoldItalic,blur
+0024,doing,green,54,Nunito,Nunito-BlackItalic,fading
+0025,few,green,111,Arvo,Arvo-BoldItalic,reflections
+0026,he's,purple,72,Dancing_Script,DancingScript-VariableFont_wght,fold marks
+0027,let,green,78,Lobster_Two,LobsterTwo-Italic,uneven illumination
+0028,real,blue,70,Pacifico,Pacifico-Regular,perspective distortion
+0029,6,blue,114,Montserrat_Alternates,MontserratAlternates-ExtraBold,motion blur
+0030,called,blue,51,Lobster_Two,LobsterTwo-Italic,aliasing
+0031,different,black,96,Dancing_Script,DancingScript-SemiBold,Gaussian noise
+0032,having,red,98,Nunito,Nunito-MediumItalic,motion blur
+0033,set,purple,104,Montserrat_Alternates,MontserratAlternates-Light,text smearing
+0034,thought,blue,42,Cormorant_Garamond,Copy_of_CormorantGaramond-Bold,text smearing
+0035,done,blue,48,Montserrat_Alternates,MontserratAlternates-MediumItalic,fading
+0036,however,black,70,Arvo,Arvo-BoldItalic,resolution scaling
+0037,getting,blue,100,Great_Vibes,GreatVibes-Regular,compression artifacts
+0038,god,red,91,Playfair_Display,Copy_of_PlayfairDisplay-SemiBoldItalic,perspective distortion
+0039,government,purple,59,Source_Code_Pro,SourceCodePro-Regular,underexposure
+0040,group,green,105,Arvo,Arvo-Bold,banding
+0041,looking,black,108,Roboto,Roboto-ExtraBoldItalic,compression artifacts
+0042,public,black,61,Great_Vibes,GreatVibes-Regular,scanner streaks
+0043,top,purple,100,Source_Code_Pro,SourceCodePro-ExtraLightItalic,motion blur
+0044,women,blue,98,Ubuntu,Ubuntu-LightItalic,misaligned scanning
+0045,business,green,106,Montserrat_Alternates,MontserratAlternates-Black,pixelation
+0046,care,green,43,Dancing_Script,DancingScript-SemiBold,text smearing
+0047,start,blue,90,Montserrat_Alternates,MontserratAlternates-Black,encoding artifacts
+0048,system,blue,81,Source_Code_Pro,SourceCodePro-ExtraBoldItalic,shadows
+0049,times,green,63,Montserrat_Alternates,MontserratAlternates-SemiBold,low resolution
+0050,week,purple,46,Lora,Lora-VariableFont_wght,pixelation
+0051,7,green,67,Ubuntu,Ubuntu-Italic,text smearing
+0052,already,red,57,Lora,Lora-SemiBold,printer toner gaps
+0053,anything,blue,59,Lora,Lora-SemiBoldItalic,lighting variations
+0054,case,purple,90,Pacifico,Pacifico-Regular,text smearing
+0055,nothing,green,95,Source_Code_Pro,SourceCodePro-BoldItalic,uneven illumination
+0056,person,black,104,Nunito,Nunito-MediumItalic,ambient noise
+0057,today,purple,103,Nunito,Nunito-ExtraBoldItalic,shadows
+0058,change,green,97,Source_Code_Pro,SourceCodePro-SemiBold,ringing artifacts
+0059,enough,red,89,Cormorant_Garamond,Copy_of_CormorantGaramond-Italic,image stretching
+0060,everything,red,90,Roboto,Roboto-BoldItalic,fold marks
+0061,full,green,63,Cormorant_Garamond,Copy_of_CormorantGaramond-Regular,ink bleed-through
+0062,live,black,108,Ubuntu,Ubuntu-Bold,background clutter
+0063,making,purple,93,Arvo,Arvo-Bold,motion blur
+0064,point,purple,71,Pacifico,Pacifico-Regular,scanner streaks
+0065,read,black,57,Playfair_Display,Copy_of_PlayfairDisplay-ExtraBold,paper texture interference
+0066,there's,black,45,Source_Code_Pro,SourceCodePro-Light,Gaussian noise
+0067,told,black,119,Dancing_Script,DancingScript-SemiBold,aliasing
+0068,yet,blue,67,Dancing_Script,DancingScript-Bold,Gaussian noise
+0069,bad,purple,115,Roboto,Roboto-ExtraBoldItalic,banding
+0070,doesn't,black,43,Cormorant_Garamond,Copy_of_CormorantGaramond-Regular,pixelation
+0071,four,green,90,Nunito,Nunito-SemiBold,ringing artifacts
+0072,hard,purple,100,Roboto,"Roboto-Italic-VariableFont_wdth,wght",quantization noise
+0073,mean,blue,111,Lobster_Two,LobsterTwo-BoldItalic,misaligned scanning
+0074,once,purple,76,Playfair_Display,Copy_of_PlayfairDisplay-Black,quantization noise
+0075,support,purple,78,Lora,Lora-Regular,perspective distortion
+0076,tell,green,74,Arvo,Arvo-Italic,image stretching
+0077,including,black,46,Dancing_Script,DancingScript-Medium,misaligned scanning
+0078,music,blue,44,Lora,Lora-VariableFont_wght,text smearing
+0079,power,purple,65,Cormorant_Garamond,Copy_of_CormorantGaramond-Bold,resolution scaling
+0080,seen,blue,96,Pacifico,Pacifico-Regular,encoding artifacts
+0081,states,purple,42,Nunito,Nunito-Black,reflections
+0082,stop,purple,66,Arvo,Arvo-Italic,partial occlusion
+0083,water,green,41,Roboto,Roboto-Black,underexposure
+0084,based,green,47,Roboto,Roboto-ExtraBold,overexposure
+0085,believe,black,96,Cormorant_Garamond,Copy_of_CormorantGaramond-Regular,ambient noise
+0086,call,red,111,Montserrat_Alternates,MontserratAlternates-SemiBoldItalic,defocus blur
+0087,head,green,70,Source_Code_Pro,SourceCodePro-ExtraBold,motion blur
+0088,men,purple,70,Playfair_Display,Copy_of_PlayfairDisplay-Regular,blur
+0089,national,purple,117,Lora,Lora-Regular,encoding artifacts
+0090,small,purple,96,Lobster_Two,LobsterTwo-Regular,JPEG compression
+0091,took,red,43,Playfair_Display,Copy_of_PlayfairDisplay-Medium,banding
+0092,white,purple,84,Nunito,Nunito-ExtraBold,ringing artifacts
+0093,came,blue,118,Cormorant_Garamond,Copy_of_CormorantGaramond-Bold,paper texture interference
+0094,far,purple,71,Lobster_Two,LobsterTwo-Italic,scanner streaks
+0095,job,green,52,Great_Vibes,GreatVibes-Regular,low resolution
+0096,side,blue,107,Montserrat_Alternates,MontserratAlternates-Italic,JPEG compression
+0097,though,red,86,Montserrat_Alternates,MontserratAlternates-ExtraLightItalic,overlay interference
+0098,try,blue,41,Great_Vibes,GreatVibes-Regular,partial occlusion
+0099,went,red,41,Lobster_Two,LobsterTwo-Regular,overexposure
