@@ -1,0 +1,48 @@
+ocr:
+  use_easyocr: true
+  use_tesseract: true
+  use_trocr: true
+
+tesseract_lang_map:
+  English: eng
+  Hindi: hin
+  Japanese: jpn
+  Arabic: ara
+  French: fra
+  Chinese: chi_sim     # Simplified Chinese
+  German: deu
+  Telugu: tel
+  Tamil: tam
+  Bengali: ben
+  Malayalam: mal
+  Punjabi: pan
+  Marathi: mar
+  Gujarati: guj
+  Sanskrit: san
+
+
+easyocr_lang_map:
+  English: en
+  Hindi: hi
+  Japanese: ja
+  Arabic: ar
+  French: fr
+  Chinese: ch_sim       # Only simplified supported
+  German: de
+  Telugu: te
+  Tamil: ta
+  Bengali: bn
+  Marathi: mr
+  Gujarati: gu
+  Malayalam: ml
+  Punjabi: pa
+
+trocr_supported_languages:
+  - English
+
+paths:
+  metadata_csv: /DATA1/ocrteam/word_restoration/reconstruction/test/metadata_test.csv
+  output_base_path: /DATA1/ocrteam/word_restoration/reconstruction/test
+  output_csv: ocr_test_data_tesseract.csv
+
+num_samples: 1000
