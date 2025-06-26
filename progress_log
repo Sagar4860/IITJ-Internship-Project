@@ -1,0 +1,75 @@
+# Internship Progress Log – IIT Jodhpur (Word Restoration & Inpainting + OCR)
+
+**Intern Name:** Sagar  
+**Project Duration:** 17 May 2025 – 17 July 2025  
+**Mentor:** Dr. Anand Mishra, Assistant Professor and Head of the Vision, Language, and Learning Group (VL2G), IIT Jodhpur  
+**Objective:** Generate synthetic word images in 15 Indian languages and evaluate OCR performance using baseline models.
+
+---
+
+## Progress Timeline
+
+### May 25 – June 5
+- Set up working environment and installed necessary packages.
+- Started with ImageMagick for image generation, but faced issues rendering Hindi characters.
+- Switched to PIL (Python Imaging Library) to support multilingual text rendering.
+- Collected and filtered suitable fonts for multiple Indian languages.
+- Created a basic image generation pipeline with text rendering and placement.
+- Generated initial dataset: 10,000 word images per language (5 languages) with simple augmentations.
+
+---
+
+### June 6 – 12
+- Created modular `synthetic-data-generation` code.
+- Initially applied random combinations of 1–2 noise types per image.
+- Used Indic-OCR toolkit (developed by IIT Jodhpur) for evaluation on Indian scripts.
+- Tested Tesseract (v5.3) baseline on synthetic data.
+- Accuracy (word level):
+  - Hindi: 74%
+  - Tamil: 69%
+  - Telugu: 65%
+- Observed that OCR struggled with distorted or curved fonts.
+
+---
+
+### June 13 – 18
+- Introduced EasyOCR as a secondary baseline.
+- Found better performance for Telugu and Tamil compared to Tesseract.
+- Refined image resizing, padding, and alignment logic.
+- Categorized noise into three types after initial trials:
+  - Pixel Destruction Noise (e.g., salt & pepper, missing pixels)
+  - Artifact Noise (e.g., blur, compression, distortions)
+  - Environmental/Weather Noise (e.g., fog, shadows, lighting)
+- Generated 300,000 images across 10 languages using combined noise types.
+
+---
+
+### June 19 – 25
+- Implemented CRNN model using PyTorch.
+- Trained CRNN on 200,000 synthetic Hindi word images.
+- Compared results with existing OCR engines.
+- Character Error Rate (CER) comparison:
+  - Tesseract: 24%
+  - EasyOCR: 19%
+  - CRNN: 12%
+- Tested TrOCR (transformer-based OCR) — found it supports English only.
+- Plan to extend evaluation to scanned documents and handwritten forms.
+
+---
+
+## TODOs
+- Generate the complete dataset (1.5 million images: 1 lakh per language).
+- Fine-tune CRNN for each language.
+- Evaluate OCR robustness against specific noise types.
+- Benchmark final OCR performance across all models and languages.
+- Organize the repository: move stable code to `src/`, and trial code to `experiments/`.
+- Prepare final presentation and documentation.
+
+---
+
+## Notes
+- Switching from ImageMagick to PIL solved rendering issues for Indian scripts.
+- Indic-OCR was effective for early-stage script evaluation.
+- EasyOCR performed well but lacked fine control compared to custom models.
+- Categorizing noise types improved experimental clarity.
+- Realistic augmentations (e.g., blur, shadows, rotations) are essential for OCR robustness.
