@@ -5,8 +5,6 @@ This project aims to improve OCR robustness across diverse scripts and real-worl
 
 ---
 
-## Project Structure
-
 ├── demo_images/                         # Sample outputs for visualization
 │   ├── noisy_images/                    # Noisy text images
 │   └── synthetic_text_images/           # Corresponding clean text images
@@ -25,8 +23,10 @@ This project aims to improve OCR robustness across diverse scripts and real-worl
 │   │   ├── ocr/                         # Scripts to run OCR (Tesseract, TrOCR, EasyOCR)
 │   │   ├── scripts/                     # Utilities and helpers
 │   │   ├── 013.png ...                  # Sample inference images
+│
 │   ├── combined_visuals/                # Grid visualizations (clean, noisy, output, masks)
-│   │   ├── combined_visual_grid_Arabic.png...  #examples for every language      
+│   │   ├── combined_visual_grid_Arabic.png ...  # Visuals for every language
+│
 │   ├── IGNCA_augumentation.py           # Specific augmentation script for IGNCA
 │   ├── augmentation.py                  # General augmentation logic
 │   ├── finetune.py                      # Code to fine-tune OCR models
@@ -35,6 +35,7 @@ This project aims to improve OCR robustness across diverse scripts and real-worl
 │   ├── view.py                          # Script to view combined outputs
 
 ├── README.md                            # You're reading it!
+---
 
 
 Key Features
