@@ -2,9 +2,9 @@
 This project aims to improve OCR robustness across diverse scripts and real-world noise conditions through synthetic data generation and restoration modeling. We simulate realistic degradations in multilingual word images and develop a restoration pipeline that significantly boosts OCR accuracy, especially for low-resource languages.
 
 
+## 📁 Project Structure
 
----
-
+```
 ├── demo_images/                         # Sample outputs for visualization
 │   ├── noisy_images/                    # Noisy text images
 │   └── synthetic_text_images/           # Corresponding clean text images
@@ -35,8 +35,7 @@ This project aims to improve OCR robustness across diverse scripts and real-worl
 │   ├── view.py                          # Script to view combined outputs
 
 ├── README.md                            # You're reading it!
----
-
+```
 
 Key Features
 Multilingual Synthetic Data
