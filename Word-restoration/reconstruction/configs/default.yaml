@@ -1,0 +1,139 @@
+fonts_dir: /DATA1/ocrteam/word_restoration/reconstruction/datasets/fonts
+output_data_dir: /DATA1/ocrteam/word_restoration/reconstruction/datasets/Sample
+number_samples: 1000
+alphanumeric_percentage: 5
+word_length: 5
+padding: 4
+Languages:
+  - English: en
+  - Japanese: ja
+  - Hindi: hi
+  # - French: fr
+  # - German: de
+  # - Arabic: ar
+  # - Bengali: bn
+  # - Punjabi: pa
+  # - Gujarati: gu
+  # - Marathi: mr
+  # - Kannada: kn
+  # - Telugu: te
+  # - Tamil: ta
+  # - Malayalam: ml
+  # - Odia: or
+  # - Sanskrit: sa
+  # - Chinese (Simplified): zh-Hans
+  # - Chinese (Traditional): zh-Hant
+font_size_range: [32, 128]
+rotate_range: [-30, 30]
+rotate_probability: 0.3
+meta_data:
+  - code
+  - word
+  - language
+  - text_color
+  - background_color
+  - font_size
+  - font_family
+  - font_style
+  - noise_type1
+  - noise_type2
+  - noise_type3
+  - angle
+  - clean_image_path
+  - noise_image_path
+  - clean_image_binary_mask_path
+  - noisy_image_binary_mask_path
+  - noisy_text_binary_mask_path
+
+noise:
+  - text_noise:
+      - partial occlusion
+      - horizontal tear
+      - vertical tear
+      - scanner streaks
+      - printer toner gaps
+      - stroke breaks
+      - double scan
+      - scribble
+      - random scratches
+      - staple holes
+      - water damage
+      - random_erasure
+      - angled line
+
+  - image_artifacts:
+      - perspective distortion
+      - text ghosting
+      - wave distortion
+      - paper curl
+      - watermarks
+      - ink bleed-through
+      - color space mismatch
+      - resolution scaling
+
+  - environmental_noise:
+      - blur
+      - compression artifacts
+      - Gaussian noise
+      - uneven illumination
+      - glare
+      - ambient noise
+      - aliasing
+      - banding
+      - scan line artifacts
+      - paper texture interference
+      - salt and pepper
+      - ink spread
+      - character merging
+      - JPEG compression
+
+colors:
+  - light_colors:
+      - white
+      - lightgray
+      - silver
+      - gainsboro
+      - whitesmoke
+      - beige
+      - seashell
+      - ivory
+      - lightyellow
+      - lightcyan
+      - lavender
+      - honeydew
+      - mintcream
+      - aliceblue
+      - mistyrose
+      - linen
+      - peachpuff
+      - palegoldenrod
+      - lightblue
+      - lightgreen
+      - powderblue
+      - skyblue
+      - paleturquoise
+  - dark_colors:
+      - black
+      - dimgray
+      - gray
+      - slategray
+      - darkslategray
+      - navy
+      - darkblue
+      - midnightblue
+      - darkgreen
+      - forestgreen
+      - darkolivegreen
+      - darkseagreen
+      - teal
+      - darkcyan
+      - maroon
+      - brown
+      - firebrick
+      - darkred
+      - purple
+      - indigo
+      - saddlebrown
+      - chocolate
+      - olive
+      - steelblue
