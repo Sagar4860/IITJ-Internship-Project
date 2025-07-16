@@ -37,44 +37,44 @@ This project aims to improve OCR robustness across diverse scripts and real-worl
 ├── README.md                            # You're reading it!
 ```
 
-Key Features
+## Key Features
 Multilingual Synthetic Data
 Supports 15+ languages including Hindi, Tamil, Urdu, Chinese, German, Arabic, etc.
 
-Realistic Noise Simulation
+## Realistic Noise Simulation
 Applies 40+ distortions like occlusions, blur, scratch, water damage, perspective, JPEG artifacts.
 
-Restoration Model (e.g., GSDM)
+## Restoration Model (e.g., GSDM)
 Learns to denoise and reconstruct word-level text images, improving OCR downstream.
 
-OCR Integration
+## OCR Integration
 Evaluates restored images using Tesseract, EasyOCR, TrOCR, with scripts to benchmark and analyze performance.
 
-Intermediate Representations
+## Intermediate Representations
 Generates ISM, CSM, and binary masks for better structural understanding and visualization.
 
-Applications
+## Applications
 Benchmark restoration accuracy across different scripts and degradation types
 
 Improve OCR accuracy in low-resource or noisy document scenarios
 
 Fine-tune OCR models using restored outputs
 
-Visual Analysis
+## Visual Analysis
 Combined grid visualizations for:
 
-  Clean image
+  -- Clean image
   
-  Noisy input
+  -- Noisy input
   
-  Restored output
+  -- Restored output
   
-  ISM (Intermediate Structural Mask)
+  -- ISM (Intach segmentation Mask)
   
-  CSM (Character Structure Map)
+  -- CSM (Corrupted segmentation Mask)
   
-  Binary mask
+  -- Binary mask
 
-Author
+## Author
 Sagar Premani
 Intern, IIT Jodhpur – Word Image Restoration Project (2025)
